@@ -1,10 +1,4 @@
-package BirdPackage;
-/**
- * @author
- * Randall Sirota 2/16/2016
- * CIS271
- */
-
+//package BirdPackage;
 import java.awt.*;
 
 public interface Bird {

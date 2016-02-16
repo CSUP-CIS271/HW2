@@ -1,8 +1,7 @@
-package BirdPackage;
+//package BirdPackage;
 /**
- * @author Given Bird interface should work with the following client program:
+ * @author Your Bird interface should work with the following client program:
  * Aviary.java
- * Randall Sirota 2/16/2016
  */
 import java.awt.*;
 
