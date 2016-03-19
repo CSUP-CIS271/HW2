@@ -1,0 +1,27 @@
+/*
+ * Card.java"
+ * Perry Smith
+ * February 16, 2016
+ * Java 271 HW2
+ */
+import java.awt.*;
+public class Card extends AbstractBird{
+  private boolean up;
+
+  public Card(int x , int y){
+  super(x, y, Color.RED);
+  up = true;
+
+  }
+  public void fly(){
+    if(up == true) {
+      getPosition().y--;
+    }else {
+      getPosition().y++;
+    }
+    if(getPosition().getY() <= 0) {
+      up = false;
+    }else if (getPosition().getY() >= 19)
+      up = true;
+  }
+}
